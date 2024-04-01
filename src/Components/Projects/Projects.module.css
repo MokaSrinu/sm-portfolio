@@ -1,0 +1,101 @@
+.ProjectsContainer {
+  width: 100%;
+  margin: 2rem auto;
+}
+
+.Project {
+  width: 100%;
+  margin: 1rem 0;
+  box-shadow: var(--shadow);
+  display: flex;
+  border-radius: 30px;
+  transform: scale(1);
+  transition: all 0.5s ease 0s;
+}
+
+.Project:hover {
+  transform: scale(1.02);
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.36) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.ProjectImgWrapper {
+  flex-basis: 63%;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;;
+}
+
+.Image {
+  width: 100%;
+  height: 100%;
+  border: 6px solid var(--clr-primary);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.ProjectInfo {
+  flex-basis: 37%;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem 1.5rem 0.5rem 0.5rem;
+  overflow: hidden;
+  /* overflow-y: scroll;
+  overflow-x: hidden; */
+}
+
+.ProjectTitle {
+  margin-top: 1em;
+  color: var(--clr-primary);
+}
+.ProjectDesc {
+  margin-top: 1em;
+  text-align: center;
+}
+.TechStacks {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.TechStacks  svg {
+  transform: scale(1);
+  font-size: 1.5rem;
+  color: var(--clr-primary);
+  transition: all 0.2s ease-in-out;
+}
+
+.TechStacks  svg:hover {
+  transform: scale(1.2);
+}
+
+.ButtonWrapper {
+  margin-top: 0.6em;
+  display: flex;
+}
+.OnButton {
+  margin: 0 1vw 0 1vw;
+}
+
+.ProjectInfo::-webkit-scrollbar {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .Project {
+    flex-direction: column;
+  }
+  .ProjectImgWrapper {
+    flex-basis: 40%;
+  }
+  .ProjectInfo {
+    flex-basis: 60%;
+  }
+}

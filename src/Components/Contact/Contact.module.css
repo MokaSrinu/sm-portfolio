@@ -1,0 +1,38 @@
+.ContactContainer {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 2rem;
+}
+
+.ContactContainer svg {
+  font-size: 3em;
+  transition: all 0.5s ease-in-out 0s;
+  color: var(--clr-primary);
+  transform: scale(1);
+}
+.ContactContainer svg:hover {
+  transform: scale(1.2);
+}
+.Linkedin:hover {
+  color: #0a66c2;
+}
+.Github:hover {
+  color: black;
+}
+.Email:hover {
+  color: #d93025;
+}
+.Twitter:hover {
+  color: rgb(29, 155, 240);
+}
+.Phone:hover {
+  color: rgb(49, 236, 49);
+}
+@media (max-width: 600px) {
+  .ContactContainer svg {
+    font-size: 2em;
+  }
+  .ContactContainer svg:hover {
+    font-size: 3rem;
+  }
+}

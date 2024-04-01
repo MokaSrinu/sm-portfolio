@@ -1,0 +1,28 @@
+.MainSection {
+  width: 100%;
+}
+
+.Different {
+  color: var(--clr-primary);
+}
+
+.TimeLine{
+  margin-bottom: 2rem;
+}
+
+.TimeLineTitle {
+  font-size: 1.1rem !important;
+  color: var(--clr-primary) !important;
+  font-weight: 500;
+}
+
+/* .TimeLineSubTitle {
+  margin-top: 0.5em;
+  font-size: 1rem !important;
+  font-weight: 500;
+} */
+
+.TimeLineDes{
+  margin: 0 !important;
+  font-size: 1rem !important;
+}

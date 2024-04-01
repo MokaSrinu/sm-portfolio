@@ -1,0 +1,19 @@
+.Header {
+  height: 4rem;
+  max-width: 1100px;
+  width: 95%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.AppIcon{
+  color: var(--clr-primary);
+  padding: 0 0 0.3em 0;
+  position: relative;
+}
+
+@media (max-width: 600px) {
+  .Header {
+    height: 3.5rem;
+  }
+}

@@ -1,0 +1,62 @@
+.About {
+  flex-direction: column;
+  padding-top: 6rem;
+}
+.AboutHeader{
+  font-size: 2.2rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.AboutName {
+  text-align: center;
+  color: var(--clr-primary);
+}
+.TypeWriterText{
+  text-align: center;
+  margin: 1.5rem 0;
+  font-size: 2rem;
+  color: var(--clr-fg-alt);
+}
+
+.AboutDesc {
+  font-size: 1.1rem;
+  max-width: 70%;
+  text-align: justify;
+}
+
+.AboutContact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.ContactIcon{
+  font-size: 2rem !important;
+}
+
+
+@media (max-width: 576px) {
+  .About {
+    align-items: flex-start;
+    margin-top: 2em;
+    justify-content: center;
+    align-items: center;
+  }
+  .About > :nth-child(2) {
+    font-size: 1.5rem;
+  }
+  .AboutDesc {
+    max-width: 94%;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .AboutDesc {
+    max-width: 85%;
+  }
+}

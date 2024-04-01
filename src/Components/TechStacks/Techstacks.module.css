@@ -1,0 +1,59 @@
+.SkillSection {
+  margin: 4rem auto;
+}
+.Header{
+  display: flex;
+  justify-content: center;
+  color: var(--clr-primary);
+}
+.SkillsWrapper{
+  width: 100%;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--clr-bg);
+  flex-wrap: wrap;
+  gap: 2.5rem;
+}
+.Card {
+  background-color: var(--clr-bg);
+  padding: 1rem;
+  width: 7rem;
+  height: 7rem;
+  box-shadow: var(--shadow);
+  z-index: 1;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease 0s;
+}
+.Card:hover {
+  overflow: hidden;
+  transform: scale(1.08);
+  box-shadow: rgba(0, 0, 0, 0.36) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  border: 1px solid var(--clr-primary);
+}
+.Icon {
+  font-size: 5rem;
+  color: var(--clr-primary);
+}
+.Title {
+  margin-top: 0.3rem;
+}
+
+/*
+@media (max-width: 600px) {
+  .techsection {
+    height: 120vh;
+  }
+  .techsection > div {
+    width: 40%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    height: 18vh;
+  }
+} */
