@@ -47,7 +47,7 @@ export const Navbar = () => {
         ))}
         <li className={classes.NavListItem}>
           <a
-            href="https://drive.google.com/drive/u/2/folders/1_3WstG2CjJ2Z2VuaLSL1auTJs2Hv9C-O"
+            href="https://drive.google.com/file/d/1xAUftPWoiyMV0tOHxynyKbpZ5JctC4pt/view"
             className={`link link--nav`}
             target="_blank"
             rel="noreferrer"
